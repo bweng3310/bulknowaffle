@@ -255,16 +255,16 @@ useEffect(()=>{
 
 const newArray4 = [];
 
-// useEffect(() => {
-//   let sub = 0
-//   for(let i=1; i<myRefs.current.length; i++){
-//     if(myRefs.current[i].innerText.split(',').slice(5,6)!='')
+useEffect(() => {
+  let sub = 0
+  for(let i=1; i<myRefs.current.length; i++){
+    if(myRefs.current[i].innerText.split(',').slice(5,6)!='')
     
-//     sub = sub +Number(myRefs.current[i].innerText.split(',').slice(5,6))+Number(myRefs.current[i].innerText.split(',').slice(2,3))
+    sub = sub +Number(myRefs.current[i].innerText.split(',').slice(5,6))+Number(myRefs.current[i].innerText.split(',').slice(2,3))
 
-//   }
-//   setsubtotal(sub)
-// }, [sizeprice,summary1]);
+  }
+  setsubtotal(sub)
+}, [sizeprice,summary1]);
 
 let data=[]
 let itemtotal=[]
