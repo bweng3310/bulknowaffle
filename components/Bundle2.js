@@ -82,7 +82,7 @@ function Bundle2(props) {
  useEffect(()=>{
   if(essential>0){
     settext({
-      summary:`Essential Set x ${essential} = ${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
+      summary:`Office Party Essential Set x ${essential} = ${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
       bundle2set1:`Office Party Essential Set x ${essential}`,
       price:`$${parseFloat(essentialprice + plus1 + plus2 + plus3).toFixed(2)}`,
       total:`$${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,

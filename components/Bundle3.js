@@ -98,7 +98,7 @@ function Bundle3(props,ref) {
      })
      props.changebundle3set1(
       {
-        summary:`Essential Set x ${essential} = ${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
+        summary:`Full House Essential Set x ${essential} = ${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
         bundle3set1:`Full House Essential Set x ${essential}`,
         price:`$${parseFloat(essentialprice + plus1 + plus2 + plus3).toFixed(2)}`,
         total:`$${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
@@ -240,7 +240,7 @@ function Bundle3(props,ref) {
 
      })
      props.changebundle3set3({
-      summary:`Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
+      summary:`Full House Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
       bundle3set3:`Full House Tea Set x ${tea}`,
       price:`$${parseFloat(teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5).toFixed(2)}`,
       total:`$${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
