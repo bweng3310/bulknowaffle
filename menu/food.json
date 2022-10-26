@@ -1,17 +1,8 @@
 {
     "data": [
+
       {
         "id": "16",
-        "googleformqant": "entry.2026718138",
-        "googleformamount": "entry.1823794867",
-        "name": "Waffles",
-        "categoryName": "SNACKS",
-        "shortDescription": "Traditional Liege waffles featuring real Belgian Pearl Sugar for a delightful crunch.",
-        "size": 2.80,
-        "image": "https://images.ctfassets.net/xqnmwkrakjp5/5EuWreqY6jWyj4pbrH1vzy/b3467facb9324980afa7c5f386cfea8e/Waffle.png"
-      },
-      {
-        "id": "17",
         "googleformqant": "entry.353882036",
         "googleformamount": "entry.1333326485",
         "name": "Flakey Butter Croissant",
@@ -21,7 +12,7 @@
         "image": "https://images.ctfassets.net/xqnmwkrakjp5/6jF8bdpCdQ5ypKUWL1Hjwt/fc7b6229397785a9e26dea28e79049ec/512px-butter-croissant.png"
       },
       {
-        "id": "18",
+        "id": "17",
         "googleformqant": "entry.357714997",
         "googleformamount": "entry.1233831563",
         "name": "Pain au Chocolat",
@@ -31,7 +22,7 @@
         "image": "https://images.ctfassets.net/xqnmwkrakjp5/6DTKiI3xz94jI8v3s6klh0/b92141d1b16b5370aa6dca8804f5b519/pain-au-chocolat.png"
       },
       {
-        "id": "19",
+        "id": "18",
         "googleformqant": "entry.713028430",
         "googleformamount": "entry.825188104",
         "name": "Flash x P.OSH Brownie",
@@ -42,7 +33,7 @@
       },
 
       {
-        "id": "20",
+        "id": "19",
         "googleformqant": "entry.2032412614",
         "googleformamount": "entry.215690093",
         "name": "Chocolate Chip Muffin",
@@ -52,7 +43,7 @@
         "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/06/Chocolate-Muffin-600x600.jpg"
       },
       {
-        "id": "21",
+        "id": "20",
         "googleformqant": "entry.1159639121",
         "googleformamount": "entry.381338041",
         "name": " Banana Yoghurt Muffin",
@@ -64,7 +55,7 @@
 
 
       {
-        "id": "22",
+        "id": "21",
         "googleformqant": "entry.1058748529",
         "googleformamount": "entry.35237477",
         "name": "Ham & Cheese Croissant",
@@ -74,7 +65,7 @@
         "image": "https://images.ctfassets.net/xqnmwkrakjp5/3MqzfN3oiLIIsg6eGvOtal/6d648d5a016672bccd75dc103b1c3da7/butter_croizant_sandwitch.png"
       },
       {
-        "id": "23",
+        "id": "22",
         "googleformqant": "entry.1892990258",
         "googleformamount": "entry.147959553",
         "name": "Beef Pastrami Croissant",
@@ -84,7 +75,7 @@
         "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/03/Delivery_SKU_APP-600x600.jpg"
       },
       {
-        "id": "24",
+        "id": "23",
         "googleformqant": "entry.288388975",
         "googleformamount": "entry.819481835",
         "name": " Impossible Sausage Roll",
@@ -94,7 +85,7 @@
         "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/10/Sausage-Roll-1000x1000-1-600x600.jpg"
       },
       {
-        "id": "25",
+        "id": "24",
         "googleformqant": "entry.1742165751",
         "googleformamount": "entry.2137794266",
         "name": "Impossible Rendang Puff",
@@ -105,7 +96,7 @@
       },
 
       {
-        "id": "26",
+        "id": "25",
         "googleformqant": "entry.1058748529",
         "googleformamount": "entry.35237477",
         "name": "Impossible Pesto Sandwich",

@@ -9,7 +9,7 @@ import bundlepic from '../public/coffee pic/bundle.JPG'
 function Bundle1(props) {
 
   const [tea, settea] = useState(0);
-  const [teaprice, setteaprice] = useState(107);
+  const [teaprice, setteaprice] = useState(110);
   const [teatotal, setteatotal] = useState(0);
   const [tplus1, settplus1] = useState(0);
   const [tplus2, settplus2] = useState(0);
@@ -25,7 +25,7 @@ function Bundle1(props) {
   const [toption6, settoption6] = useState("Pain au Chocolat");
 
   const [mixed, setmixed] = useState(0);
-  const [mixedprice, setmixedprice] = useState(121);
+  const [mixedprice, setmixedprice] = useState(124);
   const [mixedtotal, setmixedtotal] = useState(0);
   const [mplus1, setmplus1] = useState(0);
   const [mplus2, setmplus2] = useState(0);
@@ -46,7 +46,7 @@ function Bundle1(props) {
   const [moption10, setmoption10] = useState("Pain au Chocolat");
 
   const [essential, setessential] = useState(0);
-  const [essentialprice, setessentialprice] = useState(116);
+  const [essentialprice, setessentialprice] = useState(119);
   const [plus1, setplus1] = useState(0);
   const [plus2, setplus2] = useState(0);
   const [plus3, setplus3] = useState(0);
@@ -59,7 +59,7 @@ function Bundle1(props) {
   const [eoption6, seteoption6] = useState("Pain au Chocolat");
 
   const [lattebar, setlattebar] = useState(0);
-  const [lattebarprice, setlattebarprice] = useState(141);
+  const [lattebarprice, setlattebarprice] = useState(145);
   const [lattebartotal, setlattebartotal] = useState(0);
   const [lplus1, setlplus1] = useState(0);
   const [lplus2, setlplus2] = useState(0);
@@ -392,15 +392,15 @@ console.log(text4)
 
   useEffect(() => {
     if (props.size == "Regular") {
-      setessentialprice(116);
-      setteaprice(107);
-      setlattebarprice(141);
-      setmixedprice(121);
+      setessentialprice(119);
+      setteaprice(110);
+      setlattebarprice(145);
+      setmixedprice(124);
     } else if (props.size == "Small") {
-      setessentialprice(100);
-      setteaprice(192);
-      setlattebarprice(126);
-      setmixedprice(106);
+      setessentialprice(104);
+      setteaprice(95);
+      setlattebarprice(130);
+      setmixedprice(109);
     }
   }, [props.size]);
 
@@ -574,7 +574,7 @@ console.log(text4)
   }, [moption8]);
 
   useEffect(() => {
-    if (moption9 == "Waffles") {
+    if (moption9 == "Banana Yoghurt Muffin") {
       setmplus6(0);
     } else if (moption9 == "Ham and Cheese Croissant") {
       setmplus6(8.5);
@@ -764,8 +764,8 @@ console.log(text4)
                         }}
                         required
                       >
-                        <option value="Waffles" selected>
-                          Waffles
+                        <option value="Banana Yoghurt Muffin" selected>
+                        Banana Yoghurt Muffin
                         </option>
                         <option value="Ham and Cheese Croissant">
                           Ham and Cheese Croissant + $1.70 each
@@ -941,8 +941,8 @@ console.log(text4)
                         <option value="" disabled selected hidden>
                           * choose snack
                         </option>
-                        <option value="Waffles" selected>
-                          Waffles
+                        <option value="Banana Yoghurt Muffin" selected>
+                        Banana Yoghurt Muffin
                         </option>
                         <option value="Ham and Cheese Croissant">
                           Ham and Cheese Croissant + $1.70 each
@@ -1113,8 +1113,8 @@ console.log(text4)
                         }}
                         required
                       >
-                        <option value="Waffles" selected>
-                          Waffles
+                        <option value="Banana Yoghurt Muffin" selected>
+                        Banana Yoghurt Muffin
                         </option>
                         <option value="Ham and Cheese Croissant">
                           Ham and Cheese Croissant + $1.70 each
@@ -1354,8 +1354,8 @@ console.log(text4)
                         }}
                         required
                       >
-                        <option value="Waffles" selected>
-                          Waffles
+                        <option value="Banana Yoghurt Muffin" selected>
+                        Banana Yoghurt Muffin
                         </option>
                         <option value="Ham and Cheese Croissant">
                           Ham and Cheese Croissant + $1.70 each
