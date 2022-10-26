@@ -81,7 +81,7 @@ function Bundle1(props) {
  useEffect(()=>{
   if(essential>0){
     settext({
-      summary:`Essential Set x ${essential} = ${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
+      summary:`Team Huddle Essential Set x ${essential} = ${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
       bundle1set1:`Team Huddle Essential Set x ${essential}`,
       price:`$${parseFloat(essentialprice + plus1 + plus2 + plus3).toFixed(2)}`,
       total:`$${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
@@ -156,7 +156,7 @@ function Bundle1(props) {
  useEffect(()=>{
   if(lattebar>0){
     settext2({
-      summary:`Lattebar Set x ${lattebar} = ${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3 +lplus4 +lplus5) * lattebar).toFixed(2)}`,
+      summary:`Team Huddle Lattebar Set x ${lattebar} = ${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3 +lplus4 +lplus5) * lattebar).toFixed(2)}`,
       bundle1set2:`Team Huddle Lattebar Set x ${lattebar}`,
       price:`$${parseFloat(lattebarprice + lplus1 + lplus2 + lplus3  +lplus4 +lplus5).toFixed(2)}`,
       total:`$${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3  +lplus4 +lplus5) * lattebar).toFixed(2)}`,
@@ -171,7 +171,7 @@ function Bundle1(props) {
 
      })
      props.changebundle1set2({
-      summary:`Lattebar Set x ${lattebar} = ${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3  +lplus4 +lplus5) * lattebar).toFixed(2)}`,
+      summary:`Team Huddle Lattebar Set x ${lattebar} = ${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3  +lplus4 +lplus5) * lattebar).toFixed(2)}`,
       bundle1set2:`Team Huddle Lattebar Set x ${lattebar}`,
       price:`$${parseFloat(lattebarprice + lplus1 + lplus2 + lplus3 +lplus4 +lplus5).toFixed(2)}`,
       total:`$${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3 +lplus4 +lplus5) * lattebar).toFixed(2)}`,
@@ -227,7 +227,7 @@ function Bundle1(props) {
  useEffect(()=>{
   if(tea>0){
     settext3({
-      summary:`Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3 +tplus4 +tplus5) * tea).toFixed(2)}`,
+      summary:`Team Huddle Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3 +tplus4 +tplus5) * tea).toFixed(2)}`,
       bundle1set3:`Team Huddle Tea Set x ${tea}`,
       price:`$${parseFloat(teaprice + tplus1 + tplus2 + tplus3  +tplus4 +tplus5).toFixed(2)}`,
       total:`$${parseFloat((teaprice + tplus1 + tplus2 + tplus3  +tplus4 +tplus5) * tea).toFixed(2)}`,
@@ -241,7 +241,7 @@ function Bundle1(props) {
       quant:tea*15
      })
      props.changebundle1set3({
-      summary:`Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3  +tplus4 +tplus5) * tea).toFixed(2)}`,
+      summary:`Team Huddle Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3  +tplus4 +tplus5) * tea).toFixed(2)}`,
       bundle1set3:`Team Huddle Tea Set x ${tea}`,
       price:`$${parseFloat(teaprice + tplus1 + tplus2 + tplus3 +tplus4 +tplus5).toFixed(2)}`,
       total:`$${parseFloat((teaprice + tplus1 + tplus2 + tplus3 +tplus4 +tplus5) * tea).toFixed(2)}`,
@@ -295,7 +295,7 @@ function Bundle1(props) {
  useEffect(()=>{
   if(mixed>0){
     settext4({
-      summary:`Mixed Set x ${mixed} = ${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
+      summary:`Team Huddle Mixed Set x ${mixed} = ${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
       bundle1set4:`Team Huddle Mixed Set x ${mixed}`,
       price:`$${parseFloat(mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7).toFixed(2)}`,
       total:`$${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
@@ -314,7 +314,7 @@ function Bundle1(props) {
 
      })
      props.changebundle1set4({
-      summary:`Mixed Set x ${mixed} = ${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
+      summary:`Team Huddle Mixed Set x ${mixed} = ${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
       bundle1set4:`Team Huddle Mixed Set x ${mixed}`,
       price:`$${parseFloat(mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7).toFixed(2)}`,
       total:`$${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,

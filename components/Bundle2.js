@@ -83,7 +83,7 @@ function Bundle2(props) {
   if(essential>0){
     settext({
       summary:`Essential Set x ${essential} = ${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
-      bundle1set1:`Office Party Essential Set x ${essential}`,
+      bundle2set1:`Office Party Essential Set x ${essential}`,
       price:`$${parseFloat(essentialprice + plus1 + plus2 + plus3).toFixed(2)}`,
       total:`$${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
       total2:`${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
@@ -98,8 +98,8 @@ function Bundle2(props) {
      })
      props.changebundle2set1(
       {
-        summary:`Essential Set x ${essential} = ${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
-        bundle1set1:`Office Party Essential Set x ${essential}`,
+        summary:`Office Party Essential Set x ${essential} = ${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
+        bundle2set1:`Office Party Essential Set x ${essential}`,
         price:`$${parseFloat(essentialprice + plus1 + plus2 + plus3).toFixed(2)}`,
         total:`$${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
         total2:`${parseFloat((essentialprice + plus1 + plus2 + plus3) * essential).toFixed(2)}`,
@@ -118,7 +118,7 @@ function Bundle2(props) {
   else if(essential<=0){
    settext({
     summary:'',
-    bundle1set1:'',
+    bundle2set1:'',
     price:'',
     total:'',
     total2:0,
@@ -135,7 +135,7 @@ function Bundle2(props) {
     props.changebundle2set1(
       {
         summary:'',
-        bundle1set1:'',
+        bundle2set1:'',
         price:'',
         total:'',
         total2:0,
@@ -157,8 +157,8 @@ function Bundle2(props) {
  useEffect(()=>{
   if(lattebar>0){
     settext2({
-      summary:`Lattebar Set x ${lattebar} = ${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3  + lplus4 + lplus5) * lattebar).toFixed(2)}`,
-      bundle1set2:`Office Party Lattebar Set x ${lattebar}`,
+      summary:`Office Party Lattebar Set x ${lattebar} = ${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3  + lplus4 + lplus5) * lattebar).toFixed(2)}`,
+      bundle2set2:`Office Party Lattebar Set x ${lattebar}`,
       price:`$${parseFloat(lattebarprice + lplus1 + lplus2 + lplus3  + lplus4 + lplus5).toFixed(2)}`,
       total:`$${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3  + lplus4 + lplus5) * lattebar).toFixed(2)}`,
       total2:`${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3  + lplus4 + lplus5) * lattebar).toFixed(2)}`,
@@ -172,8 +172,8 @@ function Bundle2(props) {
 
      })
      props.changebundle2set2({
-      summary:`Lattebar Set x ${lattebar} = ${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3 + lplus4 + lplus5) * lattebar).toFixed(2)}`,
-      bundle1set2:`Office Party Lattebar Set x ${lattebar}`,
+      summary:`Office Party Lattebar Set x ${lattebar} = ${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3 + lplus4 + lplus5) * lattebar).toFixed(2)}`,
+      bundle2set2:`Office Party Lattebar Set x ${lattebar}`,
       price:`$${parseFloat(lattebarprice + lplus1 + lplus2 + lplus3  + lplus4 + lplus5).toFixed(2)}`,
       total:`$${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3  + lplus4 + lplus5) * lattebar).toFixed(2)}`,
       total2:`${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3  + lplus4 + lplus5) * lattebar).toFixed(2)}`,
@@ -190,7 +190,7 @@ function Bundle2(props) {
   else if(lattebar<=0){
    settext2({
     summary:'',
-    bundle1set2:'',
+    bundle2set2:'',
     price:'',
     total:'',
     total2:0,
@@ -206,7 +206,7 @@ function Bundle2(props) {
     })
     props.changebundle2set2({
       summary:'',
-      bundle1set2:'',
+      bundle2set2:'',
       price:'',
       total:'',
       total2:0,
@@ -226,8 +226,8 @@ function Bundle2(props) {
  useEffect(()=>{
   if(tea>0){
     settext3({
-      summary:`Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
-      bundle1set3:`Office Party Tea Set x ${tea}`,
+      summary:`Office Party Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
+      bundle2set3:`Office Party Tea Set x ${tea}`,
       price:`$${parseFloat(teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5).toFixed(2)}`,
       total:`${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
       total2:`${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
@@ -241,7 +241,7 @@ function Bundle2(props) {
      })
      props.changebundle2set3({
       summary:`Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
-      bundle1set3:`Office Party Tea Set x ${tea}`,
+      bundle2set3:`Office Party Tea Set x ${tea}`,
       price:`$${parseFloat(teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5).toFixed(2)}`,
       total:`$${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
       total2:`${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
@@ -257,7 +257,7 @@ function Bundle2(props) {
   else if(tea<=0){
    settext3({
     summary:'',
-    bundle1set3:'',
+    bundle2set3:'',
     price:'',
     total:'',
     total2:0,
@@ -272,7 +272,7 @@ function Bundle2(props) {
     })
     props.changebundle2set3({
       summary:'',
-      bundle1set3:'',
+      bundle2set3:'',
       price:'',
       total:'',
       total2:0,
@@ -293,8 +293,8 @@ function Bundle2(props) {
  useEffect(()=>{
   if(mixed>0){
     settext4({
-      summary:`Mixed Set x ${mixed} = ${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
-      bundle1set4:`Office Party Mixed Set x ${mixed}`,
+      summary:`Office Party Mixed Set x ${mixed} = ${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
+      bundle2set4:`Office Party Mixed Set x ${mixed}`,
       price:`$${parseFloat(mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7).toFixed(2)}`,
       total:`$${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
       total2:`${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
@@ -312,8 +312,8 @@ function Bundle2(props) {
 
      })
      props.changebundle2set4({
-      summary:`Mixed Set x ${mixed} = ${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
-      bundle1set4:`Office Party Mixed Set x ${mixed}`,
+      summary:`Office Party Mixed Set x ${mixed} = ${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
+      bundle2set4:`Office Party Mixed Set x ${mixed}`,
       price:`$${parseFloat(mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7).toFixed(2)}`,
       total:`$${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
       total2:`${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
@@ -334,7 +334,7 @@ function Bundle2(props) {
   else if(mixed<=0){
    settext4({
     summary:'',
-    bundle1set4:'',
+    bundle2set4:'',
     price:'',
     total:'',
     total2:0,

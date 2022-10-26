@@ -808,7 +808,7 @@ console.log(newArray4)
                     {bundle2set1?
                 <div className="d-flex flex-column">
                 <div className="d-flex flex-row justify-content-between">
-                    <div>{bundle2set1.bundle1set1}</div>
+                    <div>{bundle2set1.bundle2set1}</div>
                     <div>{bundle2set1.total}</div>
                 </div>
                     <div>
@@ -825,7 +825,7 @@ console.log(newArray4)
                     {bundle2set2?
                 <div className="d-flex flex-column">
                 <div className="d-flex flex-row justify-content-between">
-                    <div>{bundle2set2.bundle1set2}</div>
+                    <div>{bundle2set2.bundle2set2}</div>
                     <div>{bundle2set2.total}</div>
                 </div>
                     <div>
@@ -842,7 +842,7 @@ console.log(newArray4)
                     {bundle2set3?
                 <div className="d-flex flex-column">
                 <div className="d-flex flex-row justify-content-between">
-                    <div>{bundle2set3.bundle1set3}</div>
+                    <div>{bundle2set3.bundle2set3}</div>
                     <div>{bundle2set3.total}</div>
                 </div>
                     <div>
@@ -859,7 +859,7 @@ console.log(newArray4)
                     {bundle2set4?
                 <div className="d-flex flex-column">
                 <div className="d-flex flex-row justify-content-between">
-                    <div>{bundle2set4.bundle1set4}</div>
+                    <div>{bundle2set4.bundle2set4}</div>
                     <div>{bundle2set4.total}</div>
                 </div>
                     <div>
@@ -878,7 +878,7 @@ console.log(newArray4)
                     {bundle3set1?
                 <div className="d-flex flex-column">
                 <div className="d-flex flex-row justify-content-between">
-                    <div>{bundle3set1.bundle1set1}</div>
+                    <div>{bundle3set1.bundle3set1}</div>
                     <div>{bundle3set1.total}</div>
                 </div>
                     <div>
@@ -895,7 +895,7 @@ console.log(newArray4)
                     {bundle3set2?
                   <div className="d-flex flex-column">
                   <div className="d-flex flex-row justify-content-between">
-                      <div>{bundle3set2.bundle1set2}</div>
+                      <div>{bundle3set2.bundle3set2}</div>
                       <div>{bundle3set2.total}</div>
                   </div>
                       <div>
@@ -912,7 +912,7 @@ console.log(newArray4)
                     {bundle3set3?
                   <div className="d-flex flex-column">
                   <div className="d-flex flex-row justify-content-between">
-                      <div>{bundle3set3.bundle1set3}</div>
+                      <div>{bundle3set3.bundle3set3}</div>
                       <div>{bundle3set3.total}</div>
                   </div>
                       <div>
@@ -929,7 +929,7 @@ console.log(newArray4)
                     {bundle3set4?
                 <div className="d-flex flex-column">
                 <div className="d-flex flex-row justify-content-between">
-                    <div>{bundle3set4.bundle1set4}</div>
+                    <div>{bundle3set4.bundle3set4}</div>
                     <div>{bundle3set4.total}</div>
                 </div>
                     <div>
