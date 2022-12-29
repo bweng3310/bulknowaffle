@@ -4,7 +4,7 @@ import styles from "../styles/Item.module.css";
 import Head from "next/head";
 import { useState } from "react";
 import { useEffect, forwardRef } from "react";
-import bundlepic from '../public/coffee pic/bundle.JPG'
+import bundlepic from '../public/bundle.webp'
 
 function Bundle1(props) {
 
